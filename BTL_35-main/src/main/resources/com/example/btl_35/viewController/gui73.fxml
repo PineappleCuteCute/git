@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="861.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.btl_35.viewController.gui73">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="38.0" prefWidth="862.0" style="-fx-background-color: #3399FF;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="TOP" layoutX="681.0" layoutY="4.0" prefHeight="46.0" prefWidth="91.0" style="-fx-font-family: arial; -fx-font-size: 18;" text="Nguyễn" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" layoutX="14.0" layoutY="2.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="40.0">
+               <children>
+                  <SVGPath content="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill="WHITE" scaleX="0.07" scaleY="0.07">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </SVGPath>
+               </children>
+            </VBox>
+            <MenuButton contentDisplay="TOP" layoutX="778.0" layoutY="9.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: #3399FF; -fx-font-family: arial; -fx-font-size: 16;" textFill="#3399ff">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Thông tin cá nhân" />
+                  <MenuItem mnemonicParsing="false" text="Đăng xuất" />
+               </items>
+            </MenuButton>
+            <VBox alignment="CENTER" layoutX="775.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="40.0">
+               <children>
+                  <SVGPath content="M406.5 399.6C387.4 352.9 341.5 320 288 320H224c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3h64c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z" fill="WHITE" scaleX="0.07" scaleY="0.07" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="7.0" layoutY="62.0" prefHeight="116.0" prefWidth="850.0" style="-fx-background-color: white; -fx-border-color: #CCCCCC;">
+         <children>
+            <AnchorPane layoutY="64.0" prefHeight="27.0" prefWidth="848.0">
+               <children>
+                  <Label layoutX="8.0" layoutY="2.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 16;" text="Home" textFill="#ff2f00" />
+                  <Label layoutX="56.0" layoutY="3.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 18;" text="/" />
+                  <Label layoutX="67.0" layoutY="2.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 16;" text="My courses" />
+                  <Label layoutX="153.0" layoutY="3.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 18;" text="/" />
+                  <Label layoutX="164.0" layoutY="2.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 16;" text="THI CUỐI KỲ" textFill="RED" />
+                  <Label layoutX="277.0" layoutY="3.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 16;" text="General" textFill="#ff2f00" />
+                  <Label layoutX="265.0" layoutY="3.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 18;" text="/" />
+                  <Label layoutX="339.0" layoutY="3.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 18;" text="/" />
+                  <Label fx:id="quiz" layoutX="350.0" layoutY="3.0" prefHeight="20.0" prefWidth="220.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 16;" text="Thi giữa kỳ 2 môn Công nghệ" textFill="#ff2f00" />
+                  <Label layoutX="564.0" layoutY="4.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 18;" text="/" />
+                  <Label fx:id="quiz1" layoutX="575.0" layoutY="4.0" prefHeight="20.0" prefWidth="67.0" style="-fx-font-family: arial; -fx-font-color: #ff0000; -fx-font-size: 16;" text="Preview" textFill="#ff2f00" />
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="1.0" prefHeight="57.0" prefWidth="46.0" style="-fx-font-family: arial; -fx-font-size: 50;" text="IT" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="7.0" layoutY="192.0" prefHeight="462.0" prefWidth="848.0" style="-fx-background-color: white; -fx-border-color: #CCCCCC;">
+         <children>
+            <ScrollPane layoutY="40.0" prefHeight="450.0" prefWidth="686.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="6000.0" prefWidth="664.0" style="-fx-background-color: white;">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="194.0" prefWidth="121.0" style="-fx-border-color: #EEEEEE; -fx-background-color: white;">
+                           <children>
+                              <Label layoutX="14.0" layoutY="18.0" style="-fx-font-family: arial;" text="Question " textFill="RED">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="117.0" style="-fx-font-family: arial;" text="Marked out of 1.00 " />
+                              <Button layoutX="13.0" layoutY="137.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="94.0" style="-fx-font-family: arial; -fx-background-color: white; -fx-font-size: 12;" text="Flag question" />
+                              <Label layoutX="79.0" layoutY="6.0" style="-fx-font-family: arial;" text="1" textFill="RED">
+                                 <font>
+                                    <Font name="Sitka Small Bold" size="31.0" />
+                                 </font>
+                              </Label>
+                              <Button layoutX="7.0" layoutY="161.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="108.0" style="-fx-font-family: arial; -fx-background-color: white; -fx-font-size: 12;" text="Edit question" textFill="#3399ff" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="149.0" layoutY="14.0" prefHeight="271.0" prefWidth="499.0" style="-fx-background-color: e7f3f5;" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <AnchorPane layoutX="686.0" layoutY="19.0" prefHeight="412.0" prefWidth="150.0" style="-fx-border-color: #8c8c8c; -fx-background-color: white;">
+               <children>
+                  <Button layoutX="14.0" layoutY="39.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="18.0" style="-fx-background-color: white; -fx-border-color: black; -fx-font-family: arial; -fx-font-size: 12;" text="1" />
+                  <Button layoutX="23.0" layoutY="373.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Finish attempt..." />
+                  <Label layoutX="5.0" layoutY="10.0" style="-fx-font-family: arial;" text="Quiz navigation" textFill="#d11616">
+                     <font>
+                        <Font name="Sitka Small" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

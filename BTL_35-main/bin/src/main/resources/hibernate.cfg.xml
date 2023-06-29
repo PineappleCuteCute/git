@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=OK</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password">123456aA@$</property>
+        <!-- Xoa - tao lai tu dau -->
+        <!-- <property name="hibernate.hbm2ddl.auto">create-drop</property>  -->
+        <!-- Cap nhat nhung thong tin moi -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+
+        <!-- Mapping -->
+        <mapping class="com.example.btl_35.entity.Question"/>
+        <mapping class="com.example.btl_35.entity.Answer"/>
+        <mapping class="com.example.btl_35.entity.Quiz"/>
+        <mapping class="com.example.btl_35.entity.Category"/>
+        <mapping class="com.example.btl_35.entity.User"/>
+        <mapping class="com.example.btl_35.entity.User_Quiz"/>
+        <mapping class="com.example.btl_35.entity.Media"/>
+
+    </session-factory>
+</hibernate-configuration>

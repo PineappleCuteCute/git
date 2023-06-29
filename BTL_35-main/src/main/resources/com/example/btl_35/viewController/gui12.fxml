@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="165.0" prefWidth="466.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.btl_35.viewController.gui12">
+   <children>
+      <Label layoutX="26.0" layoutY="4.0" prefHeight="46.0" prefWidth="230.0" style="-fx-font-size: 25; -fx-font-family: Arial; -fx-font-weight: bold;" text="QUESTION BANK" textFill="#3399ff" />
+      <Button fx:id="questionsgui21" alignment="CENTER" layoutX="298.0" layoutY="30.0" mnemonicParsing="false" onAction="#questionsgui21" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #FFFFFF; -fx-font-family: arial; -fx-font-size: 20;" text="Questions" textFill="#3399ff" />
+      <Button fx:id="categoriesgui33" alignment="CENTER" layoutX="301.0" layoutY="59.0" mnemonicParsing="false" onAction="#categoriesgui33" prefHeight="38.0" prefWidth="137.0" style="-fx-background-color: #FFFFFF; -fx-font-family: arial; -fx-font-size: 20;" text="Categories" textFill="#3399ff" />
+      <Button fx:id="importgui34" alignment="CENTER" layoutX="284.0" layoutY="90.0" mnemonicParsing="false" onAction="#importgui34" prefHeight="38.0" prefWidth="137.0" style="-fx-background-color: #FFFFFF; -fx-font-family: arial; -fx-font-size: 20; -fx-alignment: left;" text="Import" textFill="#3399ff" />
+      <Button alignment="CENTER" layoutX="285.0" layoutY="123.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="137.0" style="-fx-background-color: #FFFFFF; -fx-font-family: arial; -fx-font-size: 20; -fx-alignment: left;" text="Export" textFill="#3399ff" />
+   </children>
+</AnchorPane>
